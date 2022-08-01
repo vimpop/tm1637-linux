@@ -30,7 +30,7 @@ devicename :	input3               [ OK ]
 function   :	capslock             [ OK ]     Matching definition: LED_FUNCTION_CAPSLOCK
 
 ```
-Only continue if the underylying driver is ``` AT and PS/2 keyboard driver```.
+Only continue if the underlying driver is ``` AT and PS/2 keyboard driver```.
 Finally, unload the ```atkbd``` kernel module by running:
 NOTE: This will render your keybord to not take in any inputs and its suggested to switch over to either SSH or connect an external USB keyboard. 
 ```
